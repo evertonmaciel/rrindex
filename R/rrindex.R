@@ -69,7 +69,7 @@ rrindex<-function(table){
   }
   rareindex<-(range1+max_ind+Habitats)/3 
   table1 <- data.frame(sp,range1,Habitats,max_ind,rareindex)
-  names(table1)[1:6] <- c("spp", "gri", "hsi","psi","rr")
+  names(table1)[1:5] <- c("spp", "gri", "hsi","psi","rr")
   return(table1)
 }
 
