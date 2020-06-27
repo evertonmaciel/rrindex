@@ -1,4 +1,4 @@
-# rareindex
+# rrindex
 A r package to calculate a rarity index
 
 # Overview
@@ -14,11 +14,11 @@ library(devtools)
 install_github('evertonmaciel/rrindex')
 
 # Import packages
-library(rareindex)
+library(rrindex)
 
 # Usage
 
-rrindex()
+rareindex()
 
 #Function to calculate the rarity index for each species of community based on the Rabinowitz method 
 

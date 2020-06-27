@@ -1,5 +1,5 @@
 #' @title calculates the rr index
-#' @name rrindex
+#' @name rareindex
 #' 
 #' 
 #' @description Function to calculate a index of rarity based on Rabinowitz scheme
@@ -20,7 +20,7 @@
 #' @author Everton Alves Maciel
 #' 
 #' @export
-rrindex<-function(table){
+rareindex<-function(table){
   
   sp <- as.character(sort(unique(table$spp)))
 
