@@ -1,5 +1,5 @@
 #' @title Creates a boxplot containing the averages of four indexes
-#' @name rrboxplot
+#' @name rareboxplot
 #'
 #' 
 #' 
@@ -13,7 +13,7 @@
 #' @author Everton Alves Maciel
 #' 
 #' @export
-rrboxplot<-function(table){
+rareboxplot<-function(table){
   gri<-table$gri
   hsi<-table$hsi
   psi<-table$psi
