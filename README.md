@@ -11,7 +11,7 @@ install.packages('devtools')
 
 library(devtools)
 
-install_github('evertonmaciel/rareindex')
+install_github('evertonmaciel/rrindex')
 
 # Import packages
 library(rareindex)
