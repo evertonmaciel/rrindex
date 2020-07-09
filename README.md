@@ -5,7 +5,7 @@ A r package to calculate a rarity index
 
 # Developer
 
-Everton Alves Maciel.
+Everton Alves Maciel
 University of Campinas
 <everttonmaciel@gmail.com>
 
@@ -24,7 +24,17 @@ library(rrindex)
 
 rareindex()
 
-#Function to calculate a index of rarity for each species of community based on the Rabinowitz method 
+#Function to calculate a index of rarity for each species of community based on the Rabinowitz method
+#The function returns the species list with four indexes for each species. 
+#geographic range index (gri) It is the inverse of the geographical range of the specie
+#habitat specificity index (hsi) It is the inverse of the number of habitats maximum that species occur
+#population size index (psi) It is the inverse of the size population maximum of the species
+#rr index is the average of the indexes gri,hsi and psi
+
+rareboxplot
+rareplot()
+
+#Function to calculate a index of rarity for each species of community based on the Rabinowitz method
 
 
 # Refence
