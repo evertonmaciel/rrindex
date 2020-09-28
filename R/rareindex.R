@@ -40,7 +40,7 @@ rareindex<-function(table){
     
     
     long1 [i] <- diff(range(table$long[which(table$spp==sp[i])]))
-  latlong1<-lat1+long1+1
+  latlong1<-lat1*long1+1
   range1<-1/(latlong1)
   
   {
