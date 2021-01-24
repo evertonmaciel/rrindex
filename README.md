@@ -1,5 +1,5 @@
 # rrindex
-A r package to calculate a rarity index
+A R package to calculate a rarity index
 
 # Overview
 The rr index is a synthetic measure of the geographic range, habitat specificity, and population size. Given a list of species, the reindex package return for each species an index ranging from 0 (common species) to 1 (rare species).
