@@ -27,17 +27,18 @@ library(rrindex)
 
 rareindex()
 
-#Function to calculate a index of rarity for each species of community based on the Rabinowitz method
-#The function returns the species list with four indexes for each species. 
+#Function to calculate an index of rarity for each species of community based on the Rabinowitz method
+#The function returns the species list with four indexes for each species 
 #geographic range index (gri) It is the inverse of the geographical range of the specie
-#habitat specificity index (hsi) It is the inverse of the number of habitats maximum that species occur
-#population size index (psi) It is the inverse of the size population maximum of the species
+#habitat specificity index (hsi) It is the inverse of the maximum number of habitats where specie occur
+#population size index (psi) It is the inverse of the maximum population size of the specie
 #rr index is the average of the indexes gri,hsi and psi
 
 rareboxplot
 rareplot()
 
-#Function to calculate a index of rarity for each species of community based on the Rabinowitz method
+#Function to calculate the indexes of rarity for each specie of a community 
+#This function uses the input data table, containing the list of species, latitude and longitude, number of habitats and population size
 
 
 # Refence
